@@ -1,0 +1,83 @@
+.homepage-container {
+  margin: 0 11%;
+  padding-left: 1%;
+  margin-bottom: 20px;
+  color: white;
+}
+/* ---------show and layout of cities--------- */
+.city-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5%;
+  justify-content: space-between;
+  justify-items: auto;
+  margin-bottom: 250px;
+}
+.information-city {
+  position: relative;
+}
+.img-city {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  z-index: -1;
+  border-radius: 5%;
+}
+.information {
+  margin: 10px;
+  top: 100%;
+  position: relative;
+  transform: translate(20px, 120px);
+  z-index: 1;
+}
+/* ---------show and layout hotel types--------- */
+.title-hotel,
+.title-list-hotel {
+  color: black;
+  padding-bottom: 5px;
+  font-size: 24px;
+}
+.content-list-hotel {
+  color: black;
+}
+
+.title-hotel {
+  margin: 20px 0;
+}
+.img-hotel-type {
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+img .img-hotel-list {
+  border-radius: none;
+}
+.type-hotel {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.list-hotel-rate {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+.point-rate {
+  background-color: blue;
+  color: aliceblue;
+  padding: 2%;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.content-links {
+  font-weight: bolder;
+  font-size: 20px;
+  color: blue;
+}
+.hotel-list {
+  padding-bottom: 5px;
+}

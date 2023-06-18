@@ -1,0 +1,18 @@
+.date-range {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 12px 0;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  opacity: 70%;
+}
+.rdrCalendarWrapper {
+  width: 100%;
+}
+.rdrMonth {
+  display: block;
+  width: 100%;
+}

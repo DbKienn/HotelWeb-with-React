@@ -1,0 +1,58 @@
+.container-header {
+  padding: 0 10% 5% 10%;
+  margin: 0px 20px 70px 20px;
+  background-color: #003580;
+}
+/*  BUTTON SEARCH, SIGNIN/REGISTER */
+.btn-header,
+.btn-search {
+  background-color: #339af0;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  color: white;
+}
+.container {
+  margin-bottom: 18px;
+  color: white;
+}
+p {
+  opacity: 70%;
+}
+/* FORM INPUT */
+.form-control {
+  text-align: center;
+  margin-top: 5%;
+  padding: 10px 30px;
+  display: flex;
+  border: 2px solid #febb02;
+  border-radius: 10px;
+  justify-content: space-between;
+  background-color: aliceblue;
+  width: 80%;
+  height: 60px;
+  position: absolute;
+  transform: translate(0%, -50%);
+}
+.form-control-container {
+  background-color: aliceblue;
+  margin: auto 0;
+  width: 100%;
+}
+.form-control-input {
+  width: 250px;
+  height: auto;
+  background-color: aliceblue;
+  border: none;
+  font-size: 16px;
+  padding: 2%;
+}
+/* ICON INPUT */
+.icon-header {
+  padding-top: 4px;
+  width: 18px;
+  background-color: aliceblue;
+}
+#icon-header {
+  color: #adb5bd;
+}

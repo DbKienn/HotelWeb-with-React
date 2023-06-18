@@ -1,0 +1,72 @@
+.detail-container {
+  padding: 10px 0px;
+  margin: 0 20px;
+}
+/* -------------layout title------------ */
+.detail-title {
+  display: flex;
+  justify-content: space-between;
+}
+.detail-distance {
+  color: #5c7cfa;
+}
+.detail-price {
+  color: green;
+}
+/* ---------- layout image------------ */
+.detail-img-gird {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  margin: 2% 0;
+}
+.image-detail {
+  display: inline-block;
+  width: 100%;
+}
+/* ---------- layout content------------ */
+.detail-content-grid {
+  display: grid;
+  grid-template-columns: 65% 30%;
+  column-gap: 5%;
+}
+.detail-title-head {
+  padding-bottom: 10px;
+}
+.detail-price {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.detail-content-grid-2 {
+  padding: 10px 20px;
+  background-color: #a5d8ff;
+}
+.btn-detail-booking {
+  background-color: #0071c2;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: bolder;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.btn-2 {
+  width: 100%;
+  padding: 15px 0;
+}
+.detail-content-price,
+.detail-title-content {
+  padding-bottom: 20px;
+}
+h3 {
+  font-size: 24px;
+}
+#detail-title-price {
+  text-align: center;
+  opacity: 70%;
+}
+.detail-content-grid-1 h3 {
+  font-size: 30px;
+}

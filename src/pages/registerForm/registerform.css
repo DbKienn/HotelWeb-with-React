@@ -1,0 +1,29 @@
+.register-form {
+  text-align: center;
+  padding: 60px 0px;
+  margin: 0 20px;
+  background-color: #003580;
+}
+h2 {
+  font-size: 34px;
+}
+.form-input-register {
+  width: 12%;
+  height: 40px;
+  margin-right: 10px;
+}
+.input-register {
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.btn-subscribe {
+  padding: 5px;
+  width: auto;
+  height: 40px;
+  background-color: #339af0;
+}
+.register-content {
+  margin-bottom: 14px;
+  color: white;
+}
